@@ -1,3 +1,7 @@
+include:
+  - template: Code-Quality.gitlab-ci.yml
+  - template: Security/SAST.gitlab-ci.yml
+
 build-job:
   stage: build
   script:
