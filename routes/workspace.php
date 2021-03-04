@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 use Slim\App;
 
+global $app;
+
 $app->group('/workspace', function(App $app) {
 
     $app->get('/{ws_id}', [WorkspaceController::class, 'get'])

@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 use Slim\App;
 
+global $app;
+
 $app->group('/test', function(App $app) {
 
     $app->put('', [TestController::class, 'put']);
