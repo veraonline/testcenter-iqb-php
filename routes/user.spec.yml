@@ -29,7 +29,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './components.spec.yml#/components/schemas/workspace_list'
+                $ref: './@components.spec.yml#/components/schemas/workspace_list'
               example:
                 - id: '1'
                   name: "example_workspace"
@@ -111,7 +111,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: './components.spec.yml#/components/schemas/user'
+              $ref: './@components.spec.yml#/components/schemas/user'
             example:
               n: thirdUser
               p: thirdUsersPassword
@@ -150,7 +150,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: './components.spec.yml#/components/schemas/user'
+              $ref: './@components.spec.yml#/components/schemas/user'
             example:
               p: secondUsersNewPassword
 

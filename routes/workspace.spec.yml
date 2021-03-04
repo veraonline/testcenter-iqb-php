@@ -15,7 +15,7 @@ paths:
           name: AuthToken
           description: auth-token for admin-user with role at least "RO" (read only) for this workspace
           schema:
-            $ref: './components.spec.yml#/components/schemas/auth'
+            $ref: './@components.spec.yml#/components/schemas/auth'
           example: "a:user000000000.ro00000000"
         - in: path
           name: ws_id
@@ -63,7 +63,7 @@ paths:
           name: AuthToken
           description: auth-token for admin-user with role at least "RO" (read only) for this workspace
           schema:
-            $ref: './components.spec.yml#/components/schemas/auth'
+            $ref: './@components.spec.yml#/components/schemas/auth'
           example: "a:user000000000.ro00000000"
         - in: path
           name: ws_id
@@ -142,7 +142,7 @@ paths:
           name: AuthToken
           description: auth-token for admin-user with role at least "RO" (read only) for this workspace
           schema:
-            $ref: './components.spec.yml#/components/schemas/auth'
+            $ref: './@components.spec.yml#/components/schemas/auth'
           example: "a:user000000000.ro00000000"
         - in: path
           name: ws_id
@@ -506,7 +506,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './components.spec.yml#/components/schemas/file_list'
+                $ref: './@components.spec.yml#/components/schemas/file_list'
               example: # TODO add schema
                 Resource:
                   - name: SAMPLE_UNITCONTENTS.HTM
@@ -842,7 +842,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './components.spec.yml#/components/schemas/user_list'
+                $ref: './@components.spec.yml#/components/schemas/user_list'
               example:
                 - name: super
                   id: '1'
@@ -1053,7 +1053,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './components.spec.yml#/components/schemas/sys_check'
+                $ref: './@components.spec.yml#/components/schemas/sys_check'
         "404":
           description: No SysCheck with that name found on Workspace
         "500":

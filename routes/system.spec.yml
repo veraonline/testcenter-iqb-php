@@ -74,7 +74,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './components.spec.yml#/components/schemas/workspace_list'
+                $ref: './@components.spec.yml#/components/schemas/workspace_list'
               example:
                 - id: '1'
                   name: "example_workspace"
@@ -139,7 +139,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './components.spec.yml#/components/schemas/user_list'
+                $ref: './@components.spec.yml#/components/schemas/user_list'
               example:
                 - name: super
                   id: '1'

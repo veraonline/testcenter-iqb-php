@@ -29,7 +29,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './components.spec.yml#/components/schemas/session'
+                $ref: './@components.spec.yml#/components/schemas/session'
               examples:
                 personToken:
                   value:
@@ -71,7 +71,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: './components.spec.yml#/components/schemas/login_request'
+              $ref: './@components.spec.yml#/components/schemas/login_request'
 
       responses:
         "200":
@@ -79,7 +79,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './components.spec.yml#/components/schemas/session'
+                $ref: './@components.spec.yml#/components/schemas/session'
               example:
                 token: user000000000.0000000000
                 displayName: super
@@ -104,7 +104,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: './components.spec.yml#/components/schemas/login_request'
+              $ref: './@components.spec.yml#/components/schemas/login_request'
             example:
               name: test
               password: user123
@@ -115,7 +115,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './components.spec.yml#/components/schemas/session'
+                $ref: './@components.spec.yml#/components/schemas/session'
               example:
                 token:  "static_login_sample_login"
                 displayName: "sample_group/sample_user"
@@ -160,7 +160,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: './components.spec.yml#/components/schemas/session'
+                $ref: './@components.spec.yml#/components/schemas/session'
               example:
                 token:  "static_person_xxx"
                 displayName: "sample_group/sample_user/xxx"

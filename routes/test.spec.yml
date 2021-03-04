@@ -377,7 +377,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: './components.spec.yml#/components/schemas/state'
+              $ref: './@components.spec.yml#/components/schemas/state'
             example:
             - key: PRESENTATIONCOMPLETE
               content: |
@@ -423,7 +423,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: './components.spec.yml#/components/schemas/state'
+              $ref: './@components.spec.yml#/components/schemas/state'
             example:
               - key: "CURRENT_UNIT_ID"
                 content: "UNIT_ID_X"
@@ -471,7 +471,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: './components.spec.yml#/components/schemas/log_set'
+              $ref: './@components.spec.yml#/components/schemas/log_set'
             example:
               - key: 'PAGENAVIGATIONSTART: "#first"'
                 timeStamp: 1582230020
@@ -510,7 +510,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: './components.spec.yml#/components/schemas/log_set'
+              $ref: './@components.spec.yml#/components/schemas/log_set'
             example:
               - key: 'BOOKLETLOADSTART'
                 content: '{Browser:"Dredd"}'
